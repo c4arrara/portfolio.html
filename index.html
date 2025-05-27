@@ -7,17 +7,18 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      color: #333;
+      background-color: #000;
+      color: #f1f1f1;
       margin: 0;
       padding: 0;
     }
 
     header {
-      background-color: #0f172a;
-      color: white;
+      background-color: #111;
+      color: #f1f1f1;
       padding: 40px 20px;
       text-align: center;
+      border-bottom: 3px solid #ff0000;
     }
 
     header h1 {
@@ -27,14 +28,16 @@
 
     header p {
       font-size: 1.2em;
+      color: #bbb;
     }
 
     main {
       max-width: 900px;
       margin: 40px auto;
       padding: 20px;
-      background-color: white;
+      background-color: #1a1a1a;
       border-radius: 10px;
+      box-shadow: 0 0 10px #ff000040;
     }
 
     section {
@@ -42,14 +45,19 @@
     }
 
     h2 {
-      color: #0f172a;
-      border-bottom: 2px solid #ddd;
+      color: #ff0000;
+      border-bottom: 2px solid #333;
       padding-bottom: 5px;
     }
 
     ul {
       list-style-type: none;
       padding-left: 0;
+    }
+
+    li::before {
+      content: "• ";
+      color: #ff0000;
     }
 
     li {
@@ -59,13 +67,14 @@
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #0f172a;
-      color: white;
+      background-color: #111;
+      color: #f1f1f1;
       margin-top: 40px;
+      border-top: 3px solid #ff0000;
     }
 
     a {
-      color: #0f172a;
+      color: #ff4d4d;
       text-decoration: none;
     }
 
